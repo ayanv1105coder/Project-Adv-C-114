@@ -1,0 +1,44 @@
+h3 {
+  font-size: 25px !important;
+}
+
+canvas {
+    border: 20px solid black;
+    border-top-style: dotted;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-color: darkgreen;
+    border-bottom-color: darkgreen;
+    border-left-color: darkred;
+    border-right-color: darkred;
+}
+
+body {
+    background-color: coral;
+    border-width: 10px;
+    border-style: double;
+}
+
+#ts {
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    background-color: darkgoldenrod;
+    color: coral;
+    display: inline-block;
+    cursor: pointer;
+    border-color: darkgoldenrod;
+    font-size: 12px;
+}
+
+#ts:hover {
+    background-color: coral;
+    border-color: darkgoldenrod;
+    color: black;
+    font-size: 15px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+marquee {
+    height: 20px;
+}
